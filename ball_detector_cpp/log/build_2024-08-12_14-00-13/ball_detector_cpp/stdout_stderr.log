@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ball_detector.dir/src/ball_detector.cpp.o[0m
+[01m[K/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src/ball_detector.cpp:[m[K In member function ‘[01m[Kvoid BallDetector::detect_ball()[m[K’:
+[01m[K/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src/ball_detector.cpp:71:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   71 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ball_detector.dir/build.make:76: CMakeFiles/ball_detector.dir/src/ball_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ball_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

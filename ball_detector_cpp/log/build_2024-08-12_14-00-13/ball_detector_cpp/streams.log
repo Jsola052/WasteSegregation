@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp -- -j20 -l20
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_detector.dir/src/ball_detector.cpp.o[0m
+[1.864s] [01m[K/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src/ball_detector.cpp:[m[K In member function ‘[01m[Kvoid BallDetector::detect_ball()[m[K’:
+[1.864s] [01m[K/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src/ball_detector.cpp:71:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.864s]    71 | [01;31m[K{[m[K
+[1.864s]       | [01;31m[K^[m[K
+[4.145s] gmake[2]: *** [CMakeFiles/ball_detector.dir/build.make:76: CMakeFiles/ball_detector.dir/src/ball_detector.cpp.o] Error 1
+[4.146s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ball_detector.dir/all] Error 2
+[4.146s] gmake: *** [Makefile:146: all] Error 2
+[4.147s] Invoked command in '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp -- -j20 -l20

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (ball_detector_cpp) JobQueued: {'identifier': 'ball_detector_cpp', 'dependencies': OrderedDict()}
+[0.000147] (ball_detector_cpp) JobStarted: {'identifier': 'ball_detector_cpp'}
+[0.004634] (ball_detector_cpp) JobProgress: {'identifier': 'ball_detector_cpp', 'progress': 'cmake'}
+[0.004763] (ball_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp', '-DCMAKE_INSTALL_PREFIX=/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp'], 'cwd': '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'robotics'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2251'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '3d76ed453f68415cba3fbb943b535235'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/robotics/.gtkrc:/home/robotics/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotics'), ('WINDOWID', '100663303'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/robotics/.gtkrc-2.0:/home/robotics/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/robotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arc-robotics24:@/tmp/.ICE-unix/2484,unix/arc-robotics24:/tmp/.ICE-unix/2484'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/robotics/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7Ws494/agent.2155'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.134'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp'), ('XDG_CONFIG_DIRS', '/home/robotics/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035095] (ball_detector_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.063071] (ball_detector_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.066655] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099489] (-) TimerEvent: {}
+[0.102690] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.106578] (ball_detector_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.106659] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.106828] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.108643] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.148761] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.152674] (ball_detector_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.152766] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.152991] (ball_detector_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.154136] (ball_detector_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199591] (-) TimerEvent: {}
+[0.299805] (-) TimerEvent: {}
+[0.349852] (ball_detector_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.394034] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399901] (-) TimerEvent: {}
+[0.414979] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.417305] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.421358] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.427213] (ball_detector_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.434913] (ball_detector_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.455955] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.457142] (ball_detector_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500016] (-) TimerEvent: {}
+[0.503721] (ball_detector_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.519141] (ball_detector_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.543741] (ball_detector_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.548092] (ball_detector_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.585136] (ball_detector_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.585403] (ball_detector_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600185] (-) TimerEvent: {}
+[0.622709] (ball_detector_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.623362] (ball_detector_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.650069] (ball_detector_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.665547] (ball_detector_cpp) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.670869] (ball_detector_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.700295] (-) TimerEvent: {}
+[0.716923] (ball_detector_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.723842] (ball_detector_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.724588] (ball_detector_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.724630] (ball_detector_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.725869] (ball_detector_cpp) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.733108] (ball_detector_cpp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.770726] (ball_detector_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.778096] (ball_detector_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.779001] (ball_detector_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp\n'}
+[0.785662] (ball_detector_cpp) CommandEnded: {'returncode': 0}
+[0.785998] (ball_detector_cpp) JobProgress: {'identifier': 'ball_detector_cpp', 'progress': 'build'}
+[0.786351] (ball_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp', '--', '-j20', '-l20'], 'cwd': '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'robotics'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2251'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '3d76ed453f68415cba3fbb943b535235'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/robotics/.gtkrc:/home/robotics/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotics'), ('WINDOWID', '100663303'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/robotics/.gtkrc-2.0:/home/robotics/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/robotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arc-robotics24:@/tmp/.ICE-unix/2484,unix/arc-robotics24:/tmp/.ICE-unix/2484'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/robotics/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7Ws494/agent.2155'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.134'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp'), ('XDG_CONFIG_DIRS', '/home/robotics/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.800455] (-) TimerEvent: {}
+[0.812209] (ball_detector_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ball_detector.dir/src/ball_detector.cpp.o\x1b[0m\n'}
+[0.900662] (-) TimerEvent: {}
+[0.934028] (ball_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src/ball_detector.cpp:7\x1b[m\x1b[K:\n'}
+[0.934157] (ball_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.934196] (ball_detector_cpp) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[0.934224] (ball_detector_cpp) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.000826] (-) TimerEvent: {}
+[1.101085] (-) TimerEvent: {}
+[1.201371] (-) TimerEvent: {}
+[1.301663] (-) TimerEvent: {}
+[1.401956] (-) TimerEvent: {}
+[1.502262] (-) TimerEvent: {}
+[1.602554] (-) TimerEvent: {}
+[1.702796] (-) TimerEvent: {}
+[1.803079] (-) TimerEvent: {}
+[1.903312] (-) TimerEvent: {}
+[2.003540] (-) TimerEvent: {}
+[2.103774] (-) TimerEvent: {}
+[2.204059] (-) TimerEvent: {}
+[2.304266] (-) TimerEvent: {}
+[2.404493] (-) TimerEvent: {}
+[2.504725] (-) TimerEvent: {}
+[2.604952] (-) TimerEvent: {}
+[2.705190] (-) TimerEvent: {}
+[2.805423] (-) TimerEvent: {}
+[2.905674] (-) TimerEvent: {}
+[3.005951] (-) TimerEvent: {}
+[3.106252] (-) TimerEvent: {}
+[3.206586] (-) TimerEvent: {}
+[3.306882] (-) TimerEvent: {}
+[3.407206] (-) TimerEvent: {}
+[3.507420] (-) TimerEvent: {}
+[3.607678] (-) TimerEvent: {}
+[3.707936] (-) TimerEvent: {}
+[3.808238] (-) TimerEvent: {}
+[3.908557] (-) TimerEvent: {}
+[4.008848] (-) TimerEvent: {}
+[4.109136] (-) TimerEvent: {}
+[4.209445] (-) TimerEvent: {}
+[4.309737] (-) TimerEvent: {}
+[4.410055] (-) TimerEvent: {}
+[4.510346] (-) TimerEvent: {}
+[4.610668] (-) TimerEvent: {}
+[4.710987] (-) TimerEvent: {}
+[4.811266] (-) TimerEvent: {}
+[4.911469] (-) TimerEvent: {}
+[5.011719] (-) TimerEvent: {}
+[5.111944] (-) TimerEvent: {}
+[5.212243] (-) TimerEvent: {}
+[5.312541] (-) TimerEvent: {}
+[5.412818] (-) TimerEvent: {}
+[5.513129] (-) TimerEvent: {}
+[5.613403] (-) TimerEvent: {}
+[5.713709] (-) TimerEvent: {}
+[5.814009] (-) TimerEvent: {}
+[5.914305] (-) TimerEvent: {}
+[6.014599] (-) TimerEvent: {}
+[6.114897] (-) TimerEvent: {}
+[6.215204] (-) TimerEvent: {}
+[6.315514] (-) TimerEvent: {}
+[6.415816] (-) TimerEvent: {}
+[6.516086] (-) TimerEvent: {}
+[6.616387] (-) TimerEvent: {}
+[6.716670] (-) TimerEvent: {}
+[6.816898] (-) TimerEvent: {}
+[6.917152] (-) TimerEvent: {}
+[7.017400] (-) TimerEvent: {}
+[7.117650] (-) TimerEvent: {}
+[7.144262] (ball_detector_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ball_detector\x1b[0m\n'}
+[7.217757] (-) TimerEvent: {}
+[7.317980] (-) TimerEvent: {}
+[7.418206] (-) TimerEvent: {}
+[7.518397] (-) TimerEvent: {}
+[7.618608] (-) TimerEvent: {}
+[7.688959] (ball_detector_cpp) StdoutLine: {'line': b'[100%] Built target ball_detector\n'}
+[7.694764] (ball_detector_cpp) CommandEnded: {'returncode': 0}
+[7.707112] (ball_detector_cpp) JobProgress: {'identifier': 'ball_detector_cpp', 'progress': 'install'}
+[7.712145] (ball_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp'], 'cwd': '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'robotics'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2251'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '3d76ed453f68415cba3fbb943b535235'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/robotics/.gtkrc:/home/robotics/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotics'), ('WINDOWID', '100663303'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/robotics/.gtkrc-2.0:/home/robotics/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/robotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arc-robotics24:@/tmp/.ICE-unix/2484,unix/arc-robotics24:/tmp/.ICE-unix/2484'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/robotics/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7Ws494/agent.2155'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.134'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp'), ('XDG_CONFIG_DIRS', '/home/robotics/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.715867] (ball_detector_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.715960] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/lib/ball_detector_cpp/ball_detector\n'}
+[7.718644] (ball_detector_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/lib/ball_detector_cpp/ball_detector" to ""\n'}
+[7.718687] (-) TimerEvent: {}
+[7.718756] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ament_index/resource_index/package_run_dependencies/ball_detector_cpp\n'}
+[7.718803] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ament_index/resource_index/parent_prefix_path/ball_detector_cpp\n'}
+[7.718832] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/environment/ament_prefix_path.sh\n'}
+[7.718869] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/environment/ament_prefix_path.dsv\n'}
+[7.718907] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/environment/path.sh\n'}
+[7.718931] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/environment/path.dsv\n'}
+[7.718963] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/local_setup.bash\n'}
+[7.718996] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/local_setup.sh\n'}
+[7.719035] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/local_setup.zsh\n'}
+[7.719076] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/local_setup.dsv\n'}
+[7.719117] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/package.dsv\n'}
+[7.719186] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ament_index/resource_index/packages/ball_detector_cpp\n'}
+[7.719239] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/cmake/ball_detector_cppConfig.cmake\n'}
+[7.719274] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/cmake/ball_detector_cppConfig-version.cmake\n'}
+[7.719312] (ball_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/robotics/ur16_ros2_ws/src/ball_detector_cpp/install/ball_detector_cpp/share/ball_detector_cpp/package.xml\n'}
+[7.720244] (ball_detector_cpp) CommandEnded: {'returncode': 0}
+[7.741541] (ball_detector_cpp) JobEnded: {'identifier': 'ball_detector_cpp', 'rc': 0}
+[7.741849] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/uninstall.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/ball_detector_cpp_uninstall.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/ball_detector.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/test.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/edit_cache.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/rebuild_cache.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/list_install_components.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/install.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/install/local.dir
+/home/robotics/ur16_ros2_ws/src/ball_detector_cpp/build/ball_detector_cpp/CMakeFiles/install/strip.dir

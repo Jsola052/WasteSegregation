@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tool_changer_interface/srv/ToolChanger.srv
+// generated code does not contain a copyright notice
+
+
+module tool_changer_interface {
+  module srv {
+    struct ToolChanger_Request {
+      int64 on;
+
+      int64 off;
+    };
+    struct ToolChanger_Response {
+      boolean success;
+    };
+  };
+};

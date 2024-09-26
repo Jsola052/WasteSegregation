@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool__type_support.c.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool__type_support.c.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool_changer__type_support.c.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool_changer__type_support.c.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool__type_support.c.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool__type_support.c.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool_changer__type_support.c.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool_changer__type_support.c.o.d"
+  "libtool_changer_interface__rosidl_typesupport_introspection_c.pdb"
+  "libtool_changer_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool__type_support.c"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool_changer__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/msg/detail/tool_changer__type_support.c"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool__type_support.c"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool_changer__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tool_changer_interface/srv/detail/tool_changer__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

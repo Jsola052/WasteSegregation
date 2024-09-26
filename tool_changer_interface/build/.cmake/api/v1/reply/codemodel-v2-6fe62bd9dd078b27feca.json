@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ca84d1b5434107fdf54a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tool_changer_interface__py",
+					"jsonFile" : "directory-tool_changer_interface__py-Debug-79dcc064365a507d930c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/tool_changer_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tool_changer_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tool_changer_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tool_changer_interface_egg-Debug-7a70afd99657003dce00.json",
+					"name" : "ament_cmake_python_build_tool_changer_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tool_changer_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tool_changer_interface-Debug-92eef167aba4b4be4ee4.json",
+					"name" : "ament_cmake_python_copy_tool_changer_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface-Debug-3821d7fc0a2284f3dbb5.json",
+					"name" : "tool_changer_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__cpp-Debug-5fb3da233af313e0d702.json",
+					"name" : "tool_changer_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tool_changer_interface__py::@48e065eb34657541932f",
+					"jsonFile" : "target-tool_changer_interface__py-Debug-4b78b178807f2770e0e2.json",
+					"name" : "tool_changer_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_generator_c-Debug-fa3f63fdbbdcffc7ea6f.json",
+					"name" : "tool_changer_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_generator_py-Debug-f8aca5bd5c5fc3d32683.json",
+					"name" : "tool_changer_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_c-Debug-13d87cd5d9fb83e836a4.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_c__pyext-Debug-3b9188031c0cfa6da8ad.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_cpp-Debug-e2ac8614f05cf44dbff5.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_fastrtps_c-Debug-ada14fa032be215446e3.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_fastrtps_c__pyext-Debug-78955b1d30de8fb7ed18.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_fastrtps_cpp-Debug-5b01c86fe4c003ac41fc.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_introspection_c-Debug-ec783e8789f62d27fe6e.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_introspection_c__pyext-Debug-2829bef4267f1f74f8f1.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface__rosidl_typesupport_introspection_cpp-Debug-aa0cef93f214641495d8.json",
+					"name" : "tool_changer_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tool_changer_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tool_changer_interface_uninstall-Debug-3f29ea61f6d5fce86bc7.json",
+					"name" : "tool_changer_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-68f4b0681350d153fd08.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/ros2_ws/src/tool_changer_interface/build",
+		"source" : "/home/robotics/ros2_ws/src/tool_changer_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

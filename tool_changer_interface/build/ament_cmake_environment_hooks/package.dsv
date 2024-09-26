@@ -1,0 +1,4 @@
+source;share/tool_changer_interface/local_setup.bash
+source;share/tool_changer_interface/local_setup.dsv
+source;share/tool_changer_interface/local_setup.sh
+source;share/tool_changer_interface/local_setup.zsh

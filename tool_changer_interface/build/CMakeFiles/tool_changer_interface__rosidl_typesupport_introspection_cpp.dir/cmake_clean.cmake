@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool__type_support.cpp.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool__type_support.cpp.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool_changer__type_support.cpp.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool_changer__type_support.cpp.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool__type_support.cpp.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool__type_support.cpp.o.d"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool_changer__type_support.cpp.o"
+  "CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool_changer__type_support.cpp.o.d"
+  "libtool_changer_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libtool_changer_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool_changer__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/msg/detail/tool_changer__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool_changer__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tool_changer_interface/srv/detail/tool_changer__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tool_changer_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

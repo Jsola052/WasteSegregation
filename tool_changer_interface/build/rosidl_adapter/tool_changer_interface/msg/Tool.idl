@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tool_changer_interface/msg/Tool.msg
+// generated code does not contain a copyright notice
+
+#include "tool_changer_interface/msg/String.idl"
+
+module tool_changer_interface {
+  module msg {
+    struct Tool {
+      tool_changer_interface::msg::String tool_status;
+    };
+  };
+};

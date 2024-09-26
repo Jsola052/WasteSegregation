@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robotics/ur16_ros2_ws/install/ur_py_pkg/lib/python3.10/site-packages",
+        "/home/robotics/ur16_ros2_ws/install/ur_interface/local/lib/python3.10/dist-packages",
+        "/home/robotics/ur16_ros2_ws/install/tool_changer_interface/local/lib/python3.10/dist-packages",
+        "/home/robotics/ur16_ros2_ws/install/camera_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robotics/ur16_ros2_ws/install/ur_py_pkg/lib/python3.10/site-packages",
+        "/home/robotics/ur16_ros2_ws/install/ur_interface/local/lib/python3.10/dist-packages",
+        "/home/robotics/ur16_ros2_ws/install/tool_changer_interface/local/lib/python3.10/dist-packages",
+        "/home/robotics/ur16_ros2_ws/install/camera_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

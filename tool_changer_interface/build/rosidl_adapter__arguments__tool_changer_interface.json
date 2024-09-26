@@ -1,0 +1,9 @@
+{
+  "package_name": "tool_changer_interface",
+  "non_idl_tuples": [
+    "/home/robotics/ros2_ws/src/tool_changer_interface:msg/ToolChanger.msg",
+    "/home/robotics/ros2_ws/src/tool_changer_interface:msg/Tool.msg",
+    "/home/robotics/ros2_ws/src/tool_changer_interface:srv/ToolChanger.srv",
+    "/home/robotics/ros2_ws/src/tool_changer_interface:srv/Tool.srv"
+  ]
+}
