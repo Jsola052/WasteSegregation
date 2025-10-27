@@ -41,6 +41,7 @@ class ToolChangerServerNode(Node):
             self.publish_tool_changer_success(response)
             self.get_logger().info("Tool status has been updated")
             #test comment
+            # test comment 2
         return response
     
 
