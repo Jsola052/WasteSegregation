@@ -12,6 +12,12 @@
   <depend>pcl_ros</depend>
   <depend>pcl_conversions</depend>
   <depend>geometry_msgs</depend>
+  <depend>Eigen3</depend>
+  <depend>ur_interface</depend>
+  <depend>cv_bridge</depend>
+  <depend>curl</depend>
+  <depend>nlohmann_json</depend>
+
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

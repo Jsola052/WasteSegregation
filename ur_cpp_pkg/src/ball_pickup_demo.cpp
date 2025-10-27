@@ -36,19 +36,19 @@ private:
     {
         // Transform point to base_link frame
         try {
+            home();
             geometry_msgs::msg::PointStamped transformed_point;
             tf_buffer_.transform(*msg, transformed_point, "base_link", tf2::durationFromSec(1.0));
             
-            // Apply filtering logic
             double x = transformed_point.point.x * -1000;  // Convert to mm
             double y = transformed_point.point.y * -1000;  // Convert to mm
             double z = transformed_point.point.z * 1000;  // Convert to mm
-            
+            // points_.push_back(transformed_point.point);
             // Check x and y value ranges
-            if (x >= -340 && x <= 10 && y >= -750 && y <= -340) {
-                // Ensure z value is at least 28 mm
-                if (z < 38) {
-                    transformed_point.point.z = 0.041; // Set z to 28 mm
+            if (x <= -447 && x >= -675 && y >= -130 && y <= 415) {
+                // // Ensure z value is at least in between 925 and 935 mm
+                if (z <= 925 || z >=935) {
+                    transformed_point.point.z = 0.93086; // Set z to 930 mm
                 }
                 // Add the point to the list for pickup
                 points_.push_back(transformed_point.point);
@@ -70,7 +70,7 @@ private:
 
     void home()
     {
-        robot_.moveJ({-1.57, -1.57, -1.57, -1.57, 1.57, 0.0}, 0.6, 0.6);
+        robot_.moveJ({3.14, -1.84, -2.18, -0.68, -1.57, 0}, 0.1, 0.1);
     }
 
     void log_target_position(const std::vector<double>& target_position) {
@@ -93,24 +93,28 @@ private:
             return;
         }
 
-        robot_.setTcp({0.0, 0.0, 0.142, 0, 0, 0});
+        robot_.setTcp({0.0, 0.0, 0.140, 0, 0, 0});
         RCLCPP_INFO(this->get_logger(), "Pick-up started.");
-
+        int counter = 0;
         for (const auto &point : points_) {
-            std::vector<double> target_position = {-point.x, -point.y, point.z, 0, 3.14, 0};
+            std::vector<double> target_position = {-point.x, -point.y, point.z, 0.001, 0.012, 0};
             log_target_position(target_position);
 
-            // Uncomment to perform actual pickup operations
             home();
             publish_message("tool on");
-            robot_.moveL(target_position, 0.1, 0.1);
+            robot_.moveL(target_position, 0.05, 0.05);
             sleep(0.8);
             home();
-            robot_.moveL({-0.613, -0.479, 0.311, 0.001, 3.145, -0.001}, 0.2, 0.2);
+            robot_.moveL({-0.488, -0.514, 0.621, 0.001, 0.012, 0}, 0.1, 0.1);
+            robot_.moveL({-0.488, -0.514, 0.950, 0.001, 0.012, 0}, 0.1, 0.1);
             sleep(0.8);
             publish_message("tool off");
             sleep(0.8);
+            robot_.moveL({-0.488, -0.514, 0.621, 0.001, 0.012, 0}, 0.3, 0.3);
+            robot_.moveJ({3.14, -1.84, -2.18, -0.68, -1.57, 0}, 0.6, 0.6);
             home();
+            
+            
         }
 
         points_.clear();
@@ -129,10 +133,14 @@ private:
 int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);
-    RTDEControlInterface rtde_control("172.16.3.114");
-    rtde_control.moveJ({-1.57, -1.57, -1.57, -1.57, 1.57, 0}, 0.6, 0.6);
+    RTDEControlInterface rtde_control("172.16.3.15");
+    rtde_control.moveJ({3.14, -1.84, -2.18, -0.68, -1.57, 0}, 0.6, 0.6);
     auto node = std::make_shared<BallPickupDemoNode>(rtde_control);
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
 }
+
+
+
+

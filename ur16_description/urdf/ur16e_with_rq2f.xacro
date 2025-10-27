@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<robot name="ur16e_with_rq2f" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ===== Args ===== -->
+  <xacro:arg name="name"           default="ur16e_with_rq2f"/>
+  <xacro:arg name="ur_type"        default="ur16e"/>
+  <xacro:arg name="prefix"         default=""/>
+
+  <xacro:arg name="gripper_xyz"    default="0 0 0.0"/>
+  <xacro:arg name="gripper_rpy"    default="3.14159 0 0"/>
+  <xacro:arg name="tcp_xyz"        default="0 0 0.17"/>
+  <xacro:arg name="tcp_rpy"        default="0 0 0"/>
+
+  <xacro:arg name="safety_limits" default="true"/>
+  <xacro:arg name="safety_pos_margin" default="0.15"/>
+  <xacro:arg name="safety_k_position" default="20"/>
+
+  <!-- YAML paths (defaults use ur_description) -->
+  <xacro:arg name="joint_limits_params_file"
+             default="$(find ur_description)/config/ur16e/joint_limits.yaml"/>
+  <xacro:arg name="kinematics_params_file"
+             default="$(find ur_description)/config/ur16e/default_kinematics.yaml"/>
+  <xacro:arg name="physical_params_file"
+             default="$(find ur_description)/config/ur16e/physical_parameters.yaml"/>
+  <xacro:arg name="visual_params_file"
+             default="$(find ur_description)/config/visual_parameters.yaml"/>
+
+  <!-- ===== Include UR macro ===== -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <!-- ===== UR Robot ===== -->
+  <xacro:ur_robot
+      name="${prefix}ur"
+      prefix="${prefix}"
+      ur_type="${ur_type}"
+      joint_limits_params_file="${joint_limits_params_file}"
+      kinematics_params_file="${kinematics_params_file}"
+      physical_params_file="${physical_params_file}"
+      visual_params_file="${visual_params_file}"
+      safety_limits="${safety_limits}"
+      safety_pos_margin="${safety_pos_margin}"
+      safety_k_position="${safety_k_position}" />
+
+  <!-- ===== Tool mount on tool0 ===== -->
+  <link name="${prefix}tool_mount"/>
+  <joint name="${prefix}tool_mount_joint" type="fixed">
+    <parent link="${prefix}tool0"/>
+    <child  link="${prefix}tool_mount"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ===== Placeholder gripper (stand-in for Robotiq 2F-140) ===== -->
+  <link name="rq_2f_base_link">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><box size="0.06 0.06 0.10"/></geometry>
+      <material name="gray"><color rgba="0.5 0.5 0.5 1.0"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><box size="0.06 0.06 0.10"/></geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.05"/>
+      <mass value="0.9"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.0012" iyz="0.0" izz="0.0013"/>
+    </inertial>
+  </link>
+
+  <!-- Attach placeholder gripper to tool_mount -->
+  <joint name="${prefix}rq_to_mount" type="fixed">
+    <parent link="${prefix}tool_mount"/>
+    <child  link="rq_2f_base_link"/>
+    <origin xyz="${gripper_xyz}" rpy="${gripper_rpy}"/>
+  </joint>
+
+  <!-- ===== TCP frame ===== -->
+  <link name="${prefix}tcp_link"/>
+  <joint name="${prefix}tcp_fixed" type="fixed">
+    <parent link="rq_2f_base_link"/>
+    <child  link="${prefix}tcp_link"/>
+    <origin xyz="${tcp_xyz}" rpy="${tcp_rpy}"/>
+  </joint>
+
+</robot>

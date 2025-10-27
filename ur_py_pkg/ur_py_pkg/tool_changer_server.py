@@ -13,17 +13,35 @@ class ToolChangerServerNode(Node):
         self.publisher = self.create_publisher(String, "tool_changer_status", 10)
         self.success = self.create_publisher(String, "tool_changer_success", 10)
         self.board = Arduino('/dev/arduino')
-        self.relay_pin_number = 7
-        self.relay_pin = self.board.get_pin(f'd:{self.relay_pin_number}:o')
+        self.tool_activation_pin = 7
+        self.tool_relay_pin = self.board.get_pin(f'd:{self.tool_activation_pin}:o')
+        self.tool_changer_activation_pin = 8
+        self.tool_changer_relay_pin = self.board.get_pin(f'd:{self.tool_changer_activation_pin}:o')
 
     def callback_tool_changer(self, request, response):
-        self.relay_pin.write(request.a)
-        response.success = True
-        self.publish_tool_changer_status(request)
-        self.get_logger().info("Successful tool change")
-        self.publish_tool_changer_success(response)
-        self.get_logger().info("Tool changer status has been updated")
+        if 0 <= request.a < 2: 
+            self.tool_changer_relay_pin.write(request.a)
+            response.success = True
+            self.publish_tool_changer_status(request)
+            self.get_logger().info("Successful tool change")
+            self.publish_tool_changer_success(response)
+            self.get_logger().info("Tool changer status has been updated")
+        elif request.a == 2: 
+            self.tool_relay_pin.write(0)
+            response.success = True
+            self.publish_tool_changer_status(request)
+            self.get_logger().info("Successful tool activation")
+            self.publish_tool_changer_success(response)
+            self.get_logger().info("Tool status has been updated")
+        elif request.a == 3: 
+            self.tool_relay_pin.write(1)
+            response.success = True
+            self.publish_tool_changer_status(request)
+            self.get_logger().info("Successful tool activation")
+            self.publish_tool_changer_success(response)
+            self.get_logger().info("Tool status has been updated")
         return response
+    
 
     def publish_tool_changer_status(self, request):
         msg = String()
@@ -31,6 +49,10 @@ class ToolChangerServerNode(Node):
             msg.data = "Tool Changer is locked"
         elif(request.a == 1):
             msg.data = "Tool Changer is unlocked"
+        elif(request.a == 2):
+            msg.data = "Tool Off"
+        elif(request.a == 3):
+            msg.data = "Tool On"
         self.publisher.publish(msg)
         
     def publish_tool_changer_success(self, response):

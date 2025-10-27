@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake /home/robotics/ur16_ros2_ws/src/ros2_robot_driver -DCMAKE_INSTALL_PREFIX=/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver
+[0.063s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.063s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.063s]   CMake.
+[0.063s] 
+[0.063s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.063s]   to tell CMake that the project requires at least <min> but has been updated
+[0.063s]   to work with policies introduced by <max> or earlier.
+[0.063s] 
+[0.063s] [0m
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.441s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.501s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.501s] -- Configured cppcheck include dirs: 
+[0.501s] -- Configured cppcheck exclude dirs and/or files: 
+[0.502s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.505s] -- Added test 'lint_cmake' to check CMake code style
+[0.506s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.513s] -- Added test 'uncrustify' to check C / C++ code style
+[0.513s] -- Configured uncrustify additional arguments: 
+[0.515s] -- Added test 'xmllint' to check XML markup files
+[0.516s] -- Configuring done (0.5s)
+[0.518s] -- Generating done (0.0s)
+[0.519s] -- Build files have been written to: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver
+[0.522s] Invoked command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake /home/robotics/ur16_ros2_ws/src/ros2_robot_driver -DCMAKE_INSTALL_PREFIX=/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver
+[0.523s] Invoking command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake --build /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver -- -j20 -l20
+[0.582s] Invoked command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake --build /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver -- -j20 -l20
+[0.627s] Invoking command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake --install /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver
+[0.673s] -- Install configuration: ""
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ament_index/resource_index/package_run_dependencies/ros2_robot_driver
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ament_index/resource_index/parent_prefix_path/ros2_robot_driver
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/environment/ament_prefix_path.sh
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/environment/ament_prefix_path.dsv
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/environment/path.sh
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/environment/path.dsv
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/local_setup.bash
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/local_setup.sh
+[0.673s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/local_setup.zsh
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/local_setup.dsv
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/package.dsv
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ament_index/resource_index/packages/ros2_robot_driver
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/cmake/ros2_robot_driverConfig.cmake
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/cmake/ros2_robot_driverConfig-version.cmake
+[0.674s] -- Installing: /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/install/ros2_robot_driver/share/ros2_robot_driver/package.xml
+[0.675s] Invoked command in '/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/robotics/ur16_ros2_ws/install/ur_cpp_pkg:/home/robotics/ur16_ros2_ws/install/camera_cpp_pkg:/home/robotics/ur16_ros2_ws/install/ur_interface:/home/robotics/ur16_ros2_ws/install/ur_description:/home/robotics/ur16_ros2_ws/install/ur_py_pkg:/home/robotics/ur16_ros2_ws/install/camera_pkg:/opt/ros/humble:/home/robotics/ur16_ros2_ws/install/ur16_description:/home/robotics/ur16_ros2_ws/install/tool_changer_interface:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_hardware:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_interfaces:/home/robotics/ur16_ros2_ws/install/serial:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_msgs:/home/robotics/ur16_ros2_ws/install/robotiq_2f_gripper_description:/home/robotics/ur16_ros2_ws/install/ball_detector_cpp PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/robotics/.local/bin/cmake --install /home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver

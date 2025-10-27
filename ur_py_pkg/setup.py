@@ -21,6 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             "tool_changer_server = ur_py_pkg.tool_changer_server:main",
+            "vial_detection_node = ur_py_pkg.vial_detection_node:main",
+            "vial_pickup_node = ur_py_pkg.vial_pickup_node:main",
+            "sam_testing = ur_py_pkg.sam_testing:main",
+            "bottles_demo_node = ur_py_pkg.bottles_demo_node:main"
         ],
     },
 )

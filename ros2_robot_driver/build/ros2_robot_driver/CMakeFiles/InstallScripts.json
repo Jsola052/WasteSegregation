@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/robotics/ur16_ros2_ws/src/ros2_robot_driver/build/ros2_robot_driver/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

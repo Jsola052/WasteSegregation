@@ -2,15 +2,33 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ur_py_pkg</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <version>0.0.1</version>
+  <description>UR16e pick-and-place integration using RealSense, TF2, and instance segmentation API.</description>
   <maintainer email="jsola052@fiu.edu">robotics</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT</license>
 
+  <!-- ROS 2 Python runtime dependencies -->
   <depend>rclpy</depend>
-  <depend>ur_interface</depend>
   <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>message_filters</depend>
+  <depend>visualization_msgs</depend>
 
+
+  <!-- Internal ROS package dependency -->
+  <depend>ur_interface</depend>
+
+  <!-- Python packages used in code -->
+  <depend>numpy</depend>
+  <depend>opencv-python</depend>
+  <depend>requests</depend>
+  <depend>PyYAML</depend>
+  <depend>ultralytics</depend>
+
+  <!-- Test tools -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

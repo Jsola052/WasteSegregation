@@ -1,0 +1,8 @@
+<launch>
+    <!-- <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.launch.py">
+        <arg name="pointcloud.enable" value="true"/>
+    </include> -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="my_static_broadcaster" output="screen"
+    args="-0.03 -0.135 0 0.49978680152075255 -0.49978680152075255 0.5145997611506444 0.48540023884935557 tool0 camera_link"/>
+    <node pkg ="ur_py_pkg" exec="bottles_demo_node"/>
+</launch>
