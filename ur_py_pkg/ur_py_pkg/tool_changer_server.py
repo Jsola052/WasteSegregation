@@ -40,6 +40,7 @@ class ToolChangerServerNode(Node):
             self.get_logger().info("Successful tool activation")
             self.publish_tool_changer_success(response)
             self.get_logger().info("Tool status has been updated")
+            #test comment
         return response
     
 

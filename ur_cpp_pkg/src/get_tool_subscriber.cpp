@@ -171,6 +171,12 @@ private:
         robot_.setTcp({0, 0, 0, 0, 0, 0});
         home();
     }
+    void extractObjects()
+    {
+        home();
+        robot_.setTcp({0,0,0,0,0,0});
+        robot_moveL({0,0,0,0,0,0})
+    }
 
     void callbackSuccess(const String::SharedPtr msg)
     {
